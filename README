@@ -1,0 +1,66 @@
+------------------------------------
+Assignment 3 version 4.0 29/05/2017
+------------------------------------
+
+COSC1187 - Interactive 3D Graphics & Animation
+Semester A 2017
+Lecturer & Coordinator: Geoff Leach
+
+Student Name: Mai Nguyen
+Student ID  : s3558475
+
+------------------------------------
+Compile & run:
+------------------------------------
+
+- go to the directory containing the submission files
+- to compile, type: make
+- to run    , type: ./s3558475
+
+------------------------------------
+Implemented features:
+------------------------------------
+
+- perform sphere-sphere collision detection with the cars
+- perform point-rectangle collision detection with the logs
+
+- add a road, along with a road texture
+- add a river, including a texture for the river bed, and transparent water
+
+- draw a hierarchical model for the frog, made from boxes.
+- draw a hierarchical model for the car, made from boxes and cylinders
+
+- perform keyframe animation for the prepare stage of a frog's jump
+- perform keyframe animation for jumping and landing animation
+- perform keyframe animation for ribbit animation
+
+- implement a working game with game scoring and player's lives
+- add an OSD which shows:
+	+ frame rate and time per frame
+	+ score and player's lives
+	+ game over
+
+- draw sky box
+
+- implement exploding (3D) using a particle system
+
+------------------------------------
+Controls:
+------------------------------------
+
+‘o’: toggle axes
+‘n’: toggle normals (toggle the tangents for the parabola)
+‘p’: toggle wireframe
+‘l’: toggle lighting
+‘t’: toggle textures
+‘w’: increase speed
+’s’: decrease speed
+‘a’: increase angle
+‘d’: decrease angle
+spacebar    : jump
+left mouse  : rotate camera
+right mouse : zoom camera
+left arrow  : rotate frog left
+right arrow : rotate frog right
+'+ / ='     : double number of segments for grid, sphere, parabola and cylinder shapes
+'-'		    : halve number of segments for grid, sphere, parabola and cylinder shapes
